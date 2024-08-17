@@ -12,6 +12,8 @@
 ### Project Overview
 This data analysis Project aim to derive meaningful insights that will help the of Global Superstore management make informed decisions to improve the store Performance and Profitability.
 
+![dashboard image](/Screenshot_17-8-2024_94956_.jpeg)
+
 ### Data Source
 Global Superstore data: dataset used for this analysis is in CSV format, it contains three tables, Orders, Returns and People.
 
