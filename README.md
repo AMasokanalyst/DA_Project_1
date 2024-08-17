@@ -1,4 +1,4 @@
-# Project 1
+# Global Superstore Analysis
 ## Table of Content
 - [Project Overview](#project-overview)
 - [Data Source](#data-source)
