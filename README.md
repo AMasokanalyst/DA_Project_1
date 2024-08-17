@@ -36,10 +36,18 @@ Involved exploring the Global Superstore data and answering key questions, such 
 - What are the top perfoming products
 
 ### Data analysis
-- SQL code used to answer questions
-  ```SQL
-     SELECT *
-     FROM Global_Superstore
+- Python code used to answer questions
+  ```Python- Pandas
+     # Descriptive statistics
+       df.describe()
+     # Identifying null values in columns
+       df.isnull().sum()
+     # Identifying correlation between the variables
+       df.corr(numeric_only=True)
+     # Removing columns I won't use
+       df = df.drop(columns='Postal Code')
+       df = df.drop(columns='Row ID')
+       df = df.drop(columns='Market')
   ```
 ### Results and Findings
 - Global Superstore sales have been slowly increasing from 2011 to 2014, with noticable highs around the end of the year and lows around the beginning of the year each year.
